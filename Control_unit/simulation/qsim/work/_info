@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Sebastian\Desktop\Otros\UTP\Arquitectura_de_Computadores\Procesador_monociclo(Quartus2)\Control_unit\simulation\qsim
+vControl_unit
+Z1 !s100 a4jid^B2QS<];ooMQLQj_2
+Z2 INlg89f;i_SCa7HMhEGFVN2
+Z3 VQE;H71mB5?jNU[7dL<Zak3
+Z4 dC:\Users\Sebastian\Desktop\Otros\UTP\Arquitectura_de_Computadores\Procesador_monociclo(Quartus2)\Control_unit\simulation\qsim
+Z5 w1713723110
+Z6 8Control_unit.vo
+Z7 FControl_unit.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Control_unit.vo|
+Z10 o-work work -O0
+Z11 n@control_unit
+!i10b 1
+!s85 0
+Z12 !s108 1713723111.383000
+Z13 !s107 Control_unit.vo|
+!s101 -O0
+vControl_unit_vlg_check_tst
+!i10b 1
+Z14 !s100 T@`k8HPLjIb[@c9[<M4Ki0
+Z15 I3C^_Yg[<o9o8@?zLzN`Tc1
+Z16 VEHYjU7<BR_`dzU6z0EfDE1
+R4
+Z17 w1713723107
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 61
+R8
+r1
+!s85 0
+31
+Z20 !s108 1713723111.581000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z23 n@control_unit_vlg_check_tst
+vControl_unit_vlg_sample_tst
+!i10b 1
+Z24 !s100 U:S]?W]G?Dkk0ihIQ;3ZM2
+Z25 IN630`@ZG;@hLQCihS49C=3
+Z26 V<LfN@azQ7@QV0F6ZEjj360
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@control_unit_vlg_sample_tst
+vControl_unit_vlg_vec_tst
+!i10b 1
+!s100 f^XGV??Yacf7bhzEVnTUl1
+IQMiPKMLR31>SoO5@aKUPn0
+Z28 Vcdf?fiHI<ek7=Cj?j8V3M3
+R4
+R17
+R18
+R19
+Z29 L0 583
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@control_unit_vlg_vec_tst

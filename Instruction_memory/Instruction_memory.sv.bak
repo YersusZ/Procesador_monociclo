@@ -1,0 +1,12 @@
+module Instruction_memory(Address, Instruction);
+	input logic [31:0]Address;
+	output logic [31:0]Instruction;
+	logic[31:0]Instruction_hexa;
+	logic[31:0]hex_value;
+	always_comb	begin
+		hex_value = $bitstoreal(Address)
+		hex_value = $itor(hex_value)
+		Instruction_hexa = $readmemh("Instruction_memory.txt", hex_value);
+		sprintf(Instruction, "%b", Instruction_hexa); 
+	end
+endmodule

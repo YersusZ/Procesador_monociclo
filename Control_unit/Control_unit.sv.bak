@@ -1,0 +1,14 @@
+module Control_unit(OpCode, Funct3, Funct7, RUWr, ImmSrc, AluASrc, AluBSrc, BrOp, ALUOp, DMWr, DMCtrl, RUDataWrSrc);
+input logic [6:0]Opcode;
+input logic [2:0]Funct3;
+input logic [6:0]Funct7;
+output logic RUwr;
+output logic [2:0]ImmSrc;
+output logic AluASrc;
+output logic AluBSrc;
+output logic [4:0]BrOp;
+output logic [3:0]ALUOp;
+output logic DMWr;
+output logic [2:0]DMCtrl;
+output logic [1:0]RuDataWrSrc;
+endmodule;

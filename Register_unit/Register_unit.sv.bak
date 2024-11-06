@@ -1,0 +1,21 @@
+module Register_unit(Rs1, Rs2, Clk, En, Rd, RuWr, RuDataWr, Ru);
+    input logic [31:0][31:0]RuDataWr;
+    input logic Clk;
+    input logic [31:0]En;
+	 input logic [4:0]Rs1;
+	 input logic [4:0]Rs2;
+	 input logic [4:0]Rd;
+	 input logic RuWr;
+    output logic [31:0]Ru;
+
+    always_ff @(posedge Clk)
+        begin
+            if (En) begin
+                Q = D;
+            end
+        end
+	 always_comb
+			begin
+				case(Rs1)
+					5'b00000 
+endmodule

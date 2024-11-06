@@ -1,0 +1,10 @@
+module ProgramCounter(in, out, clk);
+logic input in[31:0];
+logic input clk;
+logic output out[31:0];
+
+always_ff @ (posedge clk) begin
+	out = in;
+	end
+
+endmodule

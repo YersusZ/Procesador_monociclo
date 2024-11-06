@@ -1,0 +1,23 @@
+module Branch_unit(In1, In2, BrOp, NextPCSrc);
+	input logic [31:0]In1;
+	input logic [31:0]In2;
+	input logic [4:0]BrOp;
+	output logic NextPCSrc
+	always_comb begin
+		if(BrOp[4]) begin
+			NextPCSrc = 1;
+		end
+		if(BrOp[4:3] == 01) begin
+			case(BrOp[3:0])
+				4'1000 : NextPCSrc = In1 = In2;
+				4'1001 : NextPCSrc = In1 != In2;
+				4'1100 : NextPCSrc = In1 < In2;
+				4'1101 : NextPCSrc = In1 >= In2;
+				4'1000 : NextPCSrc = $unsigned(In1) < $unsigned(In2);
+				4'1000 : NextPCSrc = $unsigned(In1) >= $unsigned(In2);
+			endcase
+		end
+		if(BrOp[4:3] == 00)begin
+			NextPCSrc = 0;
+	end
+endmodule 

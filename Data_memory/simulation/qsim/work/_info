@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Sebastian\Desktop\Otros\UTP\Arquitectura_de_Computadores\Procesador_monociclo(Quartus2)\Data_memory\simulation\qsim
+vData_memory
+Z1 IFYTZe98ZE4CR@obS2@az22
+Z2 VK5F8HWP18ZM]0SHFU6LTc0
+Z3 dC:\Users\Sebastian\Desktop\Otros\UTP\Arquitectura_de_Computadores\Procesador_monociclo(Quartus2)\Data_memory\simulation\qsim
+Z4 w1713833207
+Z5 8Data_memory.vo
+Z6 FData_memory.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Data_memory.vo|
+Z9 o-work work -O0
+Z10 n@data_memory
+!i10b 1
+Z11 !s100 0n_1fRiWfQPX@Le;ZRWVU1
+!s85 0
+Z12 !s108 1713833210.877000
+Z13 !s107 Data_memory.vo|
+!s101 -O0
+vData_memory_vlg_check_tst
+!i10b 1
+Z14 !s100 cMD;]CkO^=0K`DacHTA6C0
+Z15 IAIGc6HF8`?j1jYn0ChAQe3
+Z16 VZ;WZ`6@JChjDOf3XVR_6l3
+R3
+Z17 w1713833205
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z20 !s108 1713833211.530000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+Z23 n@data_memory_vlg_check_tst
+vData_memory_vlg_sample_tst
+!i10b 1
+Z24 !s100 MF3@S0Kb[77g?<`@0`AhF0
+Z25 IVMg>n7_0adWNYnW4Dg=Wo2
+Z26 V8KiSJ[TF3z;ZCRj^RY9Y72
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@data_memory_vlg_sample_tst
+vData_memory_vlg_vec_tst
+!i10b 1
+Z28 !s100 O?z[^]JiOX5k3VnD:`F6H0
+Z29 IM:4a5G11NmTgOVM92LR6U0
+Z30 Vb]EBV]dobJY^N<=R7ND3P0
+R3
+R17
+R18
+R19
+Z31 L0 715
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@data_memory_vlg_vec_tst

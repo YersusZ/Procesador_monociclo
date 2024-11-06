@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sebastian/Documents/Trabajos/FlipflopD/FlipflopD.sv
+source_file = 1, C:/Users/Sebastian/Documents/Trabajos/FlipflopD/Waveform.vwf
+source_file = 1, C:/Users/Sebastian/Documents/Trabajos/FlipflopD/db/FlipflopD.cbx.xml
+design_name = FlipflopD
+instance = comp, Q_aoutput, Q~output, FlipflopD, 1
+instance = comp, Clk_ainput, Clk~input, FlipflopD, 1
+instance = comp, En_ainput, En~input, FlipflopD, 1
+instance = comp, D_ainput, D~input, FlipflopD, 1
+instance = comp, Q_a0, Q~0, FlipflopD, 1
+instance = comp, Q_areg0feeder, Q~reg0feeder, FlipflopD, 1
+instance = comp, Q_areg0, Q~reg0, FlipflopD, 1
+instance = comp, a_aQUARTUS_CREATED_GND_aI, ~QUARTUS_CREATED_GND~I, FlipflopD, 1

@@ -1,0 +1,96 @@
+module Control_unit(
+    input logic [6:0] OpCode,
+    input logic [2:0] Funct3,
+    input logic [6:0] Funct7,
+    output logic RUWr,
+    output logic [2:0] ImmSrc,
+    output logic AluASrc,
+    output logic AluBSrc,
+    output logic [4:0] BrOp,
+    output logic [3:0] ALUOp,
+    output logic DMWr,
+    output logic [2:0] DMCtrl,
+    output logic [1:0] RUDataWrSrc
+);
+
+    // Bloque always_comb para decodificar el OpCode
+    always_comb begin
+        // Inicializamos las salidas para asegurar que no se infieran latches
+        RUWr = 0;
+        ImmSrc = 3'b000;
+        AluASrc = 0;
+        AluBSrc = 0;
+        BrOp = 5'b00000;
+        ALUOp = 4'b0000;
+        DMWr = 0;
+        DMCtrl = 3'b000;
+        RUDataWrSrc = 2'b00;
+
+        // Decodificación de OpCode
+        case (OpCode)
+            7'b0110011: begin  // Tipo R
+                RUWr = 1;
+                ImmSrc = 3'b000;
+                AluASrc = 0;
+                AluBSrc = 0;
+                BrOp = 5'b00000;
+                DMWr = 0;
+                DMCtrl = 3'b000;
+                RUDataWrSrc = 2'b00;
+            end
+            7'b0010011: begin  // Tipo I
+                RUWr = 1;
+                ImmSrc = 3'b000;
+                AluASrc = 0;
+                AluBSrc = 1;
+                BrOp = 5'b00000;
+                DMWr = 0;
+                DMCtrl = 3'b000;
+                RUDataWrSrc = 2'b00;
+            end
+            7'b0000011,  // Lectura de memoria Tipo I
+            7'b1100111: begin  // Jump tipo I (jalr)
+                RUWr = 1;
+                ImmSrc = 3'b000;
+                AluASrc = 0;
+                AluBSrc = 1;
+                BrOp = (OpCode == 7'b1100111) ? 5'b10000 : 5'b00000;
+                ALUOp = 4'b0000;
+                DMWr = 0;
+                DMCtrl = 3'b000;
+                RUDataWrSrc = (OpCode == 7'b1100111) ? 2'b10 : 2'b01;
+            end
+            7'b1100011: begin  // Tipo B
+                RUWr = 0;
+                ImmSrc = 3'b101;
+                AluASrc = 1;
+                AluBSrc = 1;
+                ALUOp = 4'b0000;
+                DMWr = 0;
+                DMCtrl = 3'b000;
+                RUDataWrSrc = 2'b00;
+            end
+            // Agregar más casos según sea necesario
+            default: begin
+                // Se mantiene la inicialización del principio
+            end
+        endcase
+    end
+
+    // Bloque always_comb para la decodificación de Funct3 y Funct7
+    always_comb begin
+        // Decodificación de Funct3 y Funct7
+        case ({Funct3, Funct7})
+            10'b0000000000: begin
+                ALUOp = 4'b0000; // add
+            end
+            10'b0100000000: begin
+                ALUOp = 4'b0010; // slt
+            end
+            // Agregar más casos según sea necesario
+            default: begin
+                ALUOp = 4'b0000; // Valor por defecto
+            end
+        endcase
+    end
+endmodule

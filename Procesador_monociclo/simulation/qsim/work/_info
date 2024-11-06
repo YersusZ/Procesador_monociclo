@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Sebastian\Desktop\Otros\UTP\Arquitectura_de_Computadores\Procesador_monociclo(Quartus2)\Procesador_monociclo\simulation\qsim
+vProcesador_monociclo
+Z1 !s100 URY?a;kX[VO]25h?_OO@R3
+Z2 IhJ9VFoXBhG]d5W=ALd;@W0
+Z3 V5b^S7DFGG;UJWlzBR[UO61
+Z4 dC:\Users\Sebastian\Desktop\Otros\UTP\Arquitectura_de_Computadores\Procesador_monociclo(Quartus2)\Procesador_monociclo\simulation\qsim
+Z5 w1713850186
+Z6 8Procesador_monociclo.vo
+Z7 FProcesador_monociclo.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Procesador_monociclo.vo|
+Z10 o-work work -O0
+Z11 n@procesador_monociclo
+!i10b 1
+!s85 0
+Z12 !s108 1713850189.008000
+Z13 !s107 Procesador_monociclo.vo|
+!s101 -O0
+vProcesador_monociclo_vlg_vec_tst
+!i10b 1
+Z14 !s100 fnf2m0ki1HRT;2m]ddR093
+Z15 I;Zk^`GJg8I1KQBS0@?Wo_0
+Z16 V8ZNWN]h8Q0?G1NQgGAf]k3
+R4
+w1713850184
+Z17 8Waveform.vwf.vt
+Z18 FWaveform.vwf.vt
+L0 29
+R8
+r1
+!s85 0
+31
+!s108 1713850189.190000
+!s107 Waveform.vwf.vt|
+Z19 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R10
+Z20 n@procesador_monociclo_vlg_vec_tst

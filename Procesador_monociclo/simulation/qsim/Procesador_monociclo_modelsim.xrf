@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/Register_unit.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/ProgramCounter.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/Instruction_memory.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/Imm_unit.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/Data_memory.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/Control_unit.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/Branch_unit.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/ALU.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/Procesador_monociclo.sv
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/Waveform.vwf
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/db/Procesador_monociclo.cbx.xml
+source_file = 1, C:/Users/Sebastian/Desktop/Otros/UTP/Arquitectura_de_Computadores/Procesador_monociclo(Quartus2)/Procesador_monociclo/instruction_memory.txt
+design_name = Procesador_monociclo
+instance = comp, \Clk~input , Clk~input, Procesador_monociclo, 1

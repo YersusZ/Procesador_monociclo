@@ -1,0 +1,14 @@
+Quartus II Archive log --	C:/Users/Sebastian/Documents/Trabajos/ProgramCounter/__ProgramCounter.auto.qarlog
+
+Archive:	C:/Users/Sebastian/Documents/Trabajos/ProgramCounter/__ProgramCounter.auto.qar
+Date:		Wed Mar 27 11:52:27 2024
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/Sebastian/Documents/Trabajos/ProgramCounter/db/ProgramCounter.qpf
+ProgramCounter.qsf
+c:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 3 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

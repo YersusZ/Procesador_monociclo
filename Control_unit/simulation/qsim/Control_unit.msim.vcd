@@ -1,0 +1,342 @@
+$comment
+	File created using the following command:
+		vcd file Control_unit.msim.vcd -direction
+$end
+$date
+	Sun Apr 21 13:11:52 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Control_unit_vlg_vec_tst $end
+$var reg 3 ! Funct3 [2:0] $end
+$var reg 7 " Funct7 [6:0] $end
+$var reg 7 # OpCode [6:0] $end
+$var wire 1 $ ALUOp [3] $end
+$var wire 1 % ALUOp [2] $end
+$var wire 1 & ALUOp [1] $end
+$var wire 1 ' ALUOp [0] $end
+$var wire 1 ( AluASrc $end
+$var wire 1 ) AluBSrc $end
+$var wire 1 * BrOp [4] $end
+$var wire 1 + BrOp [3] $end
+$var wire 1 , BrOp [2] $end
+$var wire 1 - BrOp [1] $end
+$var wire 1 . BrOp [0] $end
+$var wire 1 / DMCtrl [2] $end
+$var wire 1 0 DMCtrl [1] $end
+$var wire 1 1 DMCtrl [0] $end
+$var wire 1 2 DMWr $end
+$var wire 1 3 ImmSrc [2] $end
+$var wire 1 4 ImmSrc [1] $end
+$var wire 1 5 ImmSrc [0] $end
+$var wire 1 6 RUDataWrSrc [1] $end
+$var wire 1 7 RUDataWrSrc [0] $end
+$var wire 1 8 RUWr $end
+$var wire 1 9 sampler $end
+$scope module i1 $end
+$var wire 1 : gnd $end
+$var wire 1 ; vcc $end
+$var wire 1 < unknown $end
+$var tri1 1 = devclrn $end
+$var tri1 1 > devpor $end
+$var tri1 1 ? devoe $end
+$var wire 1 @ ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 A OpCode[0]~input_o $end
+$var wire 1 B OpCode[1]~input_o $end
+$var wire 1 C OpCode[6]~input_o $end
+$var wire 1 D OpCode[4]~input_o $end
+$var wire 1 E OpCode[5]~input_o $end
+$var wire 1 F OpCode[3]~input_o $end
+$var wire 1 G OpCode[2]~input_o $end
+$var wire 1 H WideOr0~0_combout $end
+$var wire 1 I WideOr0~1_combout $end
+$var wire 1 J Equal6~0_combout $end
+$var wire 1 K WideOr1~0_combout $end
+$var wire 1 L WideOr1~1_combout $end
+$var wire 1 M ImmSrc~0_combout $end
+$var wire 1 N ImmSrc~1_combout $end
+$var wire 1 O WideOr2~0_combout $end
+$var wire 1 P WideOr2~1_combout $end
+$var wire 1 Q WideOr3~0_combout $end
+$var wire 1 R WideOr3~1_combout $end
+$var wire 1 S Funct3[0]~input_o $end
+$var wire 1 T Funct3[1]~input_o $end
+$var wire 1 U Funct7[5]~input_o $end
+$var wire 1 V Funct7[3]~input_o $end
+$var wire 1 W Funct7[4]~input_o $end
+$var wire 1 X Funct7[6]~input_o $end
+$var wire 1 Y Funct7[2]~input_o $end
+$var wire 1 Z Funct7[1]~input_o $end
+$var wire 1 [ Funct7[0]~input_o $end
+$var wire 1 \ Equal2~0_combout $end
+$var wire 1 ] Equal3~0_combout $end
+$var wire 1 ^ Funct3[2]~input_o $end
+$var wire 1 _ BrOp~0_combout $end
+$var wire 1 ` BrOp~1_combout $end
+$var wire 1 a BrOp~2_combout $end
+$var wire 1 b WideNor1~0_combout $end
+$var wire 1 c BrOp~3_combout $end
+$var wire 1 d WideOr4~0_combout $end
+$var wire 1 e WideOr4~1_combout $end
+$var wire 1 f BrOp~4_combout $end
+$var wire 1 g Equal12~0_combout $end
+$var wire 1 h Equal0~0_combout $end
+$var wire 1 i ALUOp~1_combout $end
+$var wire 1 j ALUOp~2_combout $end
+$var wire 1 k Equal0~1_combout $end
+$var wire 1 l ALUOp~0_combout $end
+$var wire 1 m ALUOp~3_combout $end
+$var wire 1 n ALUOp~7_combout $end
+$var wire 1 o ALUOp~4_combout $end
+$var wire 1 p ALUOp~5_combout $end
+$var wire 1 q Equal2~1_combout $end
+$var wire 1 r ALUOp~6_combout $end
+$var wire 1 s Decoder0~0_combout $end
+$var wire 1 t Equal6~1_combout $end
+$var wire 1 u Equal13~0_combout $end
+$var wire 1 v DMCtrl~0_combout $end
+$var wire 1 w DMCtrl~1_combout $end
+$var wire 1 x DMCtrl~2_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b100011 #
+0'
+0&
+0%
+0$
+0(
+1)
+0.
+0-
+0,
+0+
+0*
+01
+00
+0/
+12
+15
+04
+03
+07
+06
+08
+x9
+0:
+1;
+x<
+1=
+1>
+1?
+0@
+1A
+1B
+0C
+0D
+1E
+0F
+0G
+0H
+0I
+1J
+0K
+0L
+1M
+0N
+0O
+0P
+1Q
+1R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+1\
+1]
+0^
+0_
+0`
+0a
+1b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+1k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+1s
+1t
+0u
+0v
+0w
+0x
+$end
+#40000
+b1 !
+1S
+09
+1v
+11
+#80000
+b11 !
+b10 !
+0S
+1T
+19
+0b
+0v
+1w
+01
+10
+#120000
+b11 #
+b10011 #
+b0 !
+0T
+1D
+0E
+09
+1b
+1H
+1K
+1d
+1h
+0t
+0w
+0J
+1u
+00
+05
+17
+1I
+0u
+0s
+18
+07
+02
+#160000
+b1 !
+1S
+19
+1j
+1m
+1'
+#200000
+b11 !
+b10 !
+0S
+1T
+09
+0j
+0b
+1n
+1&
+0m
+0'
+#240000
+b11 !
+1S
+19
+1j
+1m
+1'
+#280000
+b111 !
+b101 !
+b100 !
+0S
+0T
+1^
+09
+0j
+1o
+1b
+0n
+0&
+0m
+1p
+0'
+1%
+#320000
+b101 !
+1S
+19
+1i
+0o
+1m
+1'
+#400000
+b111 !
+b110 !
+0S
+1T
+09
+0i
+1o
+1n
+1&
+0m
+0'
+#440000
+b111 !
+1S
+19
+1g
+0o
+1m
+1'
+#480000
+b110011 #
+b100011 #
+b11 !
+b1 !
+b0 !
+0S
+0T
+0^
+0D
+1E
+09
+0g
+0H
+0K
+0d
+0h
+1t
+0n
+1J
+0&
+15
+0m
+0p
+0I
+1s
+0'
+0%
+08
+12
+#1000000

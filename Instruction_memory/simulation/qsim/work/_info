@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Sebastian\Desktop\Otros\UTP\Arquitectura_de_Computadores\Procesador_monociclo(Quartus2)\Instruction_memory\simulation\qsim
+vInstruction_memory
+Z1 IX4FPGMZSFlC1G>20ToR6V2
+Z2 V]@f<D_Q?9RDm3=^5mik0S1
+Z3 dC:\Users\Sebastian\Desktop\Otros\UTP\Arquitectura_de_Computadores\Procesador_monociclo(Quartus2)\Instruction_memory\simulation\qsim
+Z4 w1713730567
+Z5 8Instruction_memory.vo
+Z6 FInstruction_memory.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Instruction_memory.vo|
+Z9 o-work work -O0
+Z10 n@instruction_memory
+!i10b 1
+Z11 !s100 cJHo5^mWRd@`Fo>dHnl6@0
+!s85 0
+Z12 !s108 1713730568.442000
+Z13 !s107 Instruction_memory.vo|
+!s101 -O0
+vInstruction_memory_vlg_check_tst
+!i10b 1
+Z14 !s100 N^J`m3UB6Gg]SSQUnmcY02
+Z15 I>88Qmol];9Oe:H9LXjgM91
+Z16 V9Dh_?1OcZeI:=b8Ib_bSa0
+R3
+Z17 w1713730565
+Z18 8Waveform.vwf.vt
+Z19 FWaveform.vwf.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z20 !s108 1713730568.646000
+Z21 !s107 Waveform.vwf.vt|
+Z22 !s90 -work|work|Waveform.vwf.vt|
+!s101 -O0
+R9
+Z23 n@instruction_memory_vlg_check_tst
+vInstruction_memory_vlg_sample_tst
+!i10b 1
+Z24 !s100 453nFG`kLoVXWzb]RVjGV2
+Z25 IR@6e28[:R@Jo;dB[@`S6T0
+Z26 VL_K:A`oBIjkj@3lQo<o9X1
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@instruction_memory_vlg_sample_tst
+vInstruction_memory_vlg_vec_tst
+!i10b 1
+Z28 !s100 CL9iXZMR@EghHSk7U<gUY3
+Z29 I@>?X82ziSVbSSWLozOfaK1
+Z30 VIj7FnSc^fH5ALRKAglSKN3
+R3
+R17
+R18
+R19
+Z31 L0 709
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@instruction_memory_vlg_vec_tst
